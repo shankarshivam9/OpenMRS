@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.automation.DataDrivenScripts.TC13_ExcelData_SkipFirstColumn"/>
+      <class name="com.automation.DataDrivenScripts.TC06_DataProvider"/>
+      <class name="com.automation.DataDrivenScripts.TC03_CreateRecordTestNG"/>
+      <class name="com.automation.PageObjectModel.TC03_CreateRecord_TestNG"/>
+      <class name="com.automation.DataDrivenScripts.TC10_ExcelData_RowIndexLooping"/>
+      <class name="com.automation.DataDrivenScripts.TC09_ExcelData_2SetsData"/>
+      <class name="com.automation.DataDrivenScripts.TC14_ExcelHelper"/>
+      <class name="com.automation.DataDrivenScripts.TC11_ExcelData_RowsColumnsLooping"/>
+      <class name="com.automation.DataDrivenScripts.TC15_ExcelHelperPassingParameters"/>
+      <class name="com.automation.DataDrivenScripts.TC05_RemoveHardCodingValues"/>
+      <class name="com.automation.DataDrivenScripts.TC12_ExcelData_NRowsNColumns"/>
+      <class name="com.automation.ExtentReports.ExtentReportsDemo"/>
+      <class name="com.automation.DataDrivenScripts.TC08_ExcelData_2"/>
+      <class name="com.automation.DataDrivenScripts.TC04_TestNGAnnotations"/>
+      <class name="com.automation.DataDrivenScripts.TC07_ExcelData"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OpenMRS]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TC05_CreateRecord(failed)">
+    <classes>
+      <class name="com.automation.testscripts.TC05_CreateRecord">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="createRecord"/>
+        </methods>
+      </class> <!-- com.automation.testscripts.TC05_CreateRecord -->
+    </classes>
+  </test> <!-- TC05_CreateRecord(failed) -->
+</suite> <!-- Failed suite [OpenMRS] -->
